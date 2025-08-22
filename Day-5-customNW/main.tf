@@ -58,7 +58,6 @@ resource "aws_security_group" "dev_sg" {
   tags = {
     Name = "dev-sg"
   }
-
   ingress {
     description = "HTTP"
     from_port   = 80

@@ -14,3 +14,8 @@ variable "name" {
     default = ""
   
 }
+variable "zone" {
+    type = string
+    default = ""
+  
+}
